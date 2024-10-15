@@ -1,4 +1,4 @@
-joshcai/leetcode-sync@v1.7name: Sync Leetcode
+name: Sync Leetcode
 
 on:
   workflow_dispatch:
@@ -18,4 +18,4 @@ jobs:
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
           destination-folder: my-folder
           verbose: true
-          commit-header: '[LeetCode Sync]'
+          commit-header: "[LeetCode Sync]"
